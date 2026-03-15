@@ -1,16 +1,18 @@
 # md2json
 
-convert to Markdown to JSON
+Convert Markdown to JSON.
 
-## usage
+## Usage
 
-from [words.md](words.md)
+From a Markdown file:
+
 ```js
 deno --allow-read --allow-write https://code4fukui.github.io/md2json.js words.md
 ```
-→ [words.md.json](words.md.json)
 
-## sample
+This will generate a JSON file with the same name as the Markdown file.
+
+## Sample
 
 ```
 # title
@@ -39,3 +41,7 @@ body2
   }
 }
 ```
+
+## License
+
+MIT License
