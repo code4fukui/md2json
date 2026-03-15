@@ -1,5 +1,7 @@
 # md2json
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Convert Markdown to JSON.
 
 ## Usage
