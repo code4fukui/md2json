@@ -20,7 +20,7 @@ A Deno script to convert Markdown files into a nested JSON structure. It preserv
 To convert a Markdown file, run the script with Deno. For example, to convert the provided `words.md` file:
 
 ```bash
-deno run --allow-read --allow-write https://code4fukui.github.io/md2json.js words.md
+deno run --allow-read --allow-write https://github.com/code4fukui/md2json words.md
 ```
 
 This command reads `words.md` and generates a structured `words.md.json` file in the same directory.
